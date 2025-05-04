@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company Balance Sheet - Alpha Vantage</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input, button { font-size: 16px; padding: 8px; margin: 5px 0; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f4f4f4; }
+  </style>
+</head>
+<body>
+  <h1>Company Balance Sheet (Annual)</h1>
+
+  <input type="text" id="symbolInput" placeholder="Enter stock symbol (e.g. AAPL)" />
+  <button onclick="searchSymbol()">Search</button>
+
+  <table id="balanceSheetTable">
+    <thead>
+      <tr>
+        <th>Fiscal Date</th>
+        <th>Total Assets</th>
+        <th>Total Liabilities</th>
+        <th>Shareholder Equity</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
