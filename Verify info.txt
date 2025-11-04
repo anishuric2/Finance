@@ -1,0 +1,9 @@
+Inflation Rate
+https://www.bls.gov/cpi/
+
+
+Interest Rate
+The effective federal funds rate (EFFR) is the weighted average interest rate at which banks lend reserves to each other overnight
+https://fred.stlouisfed.org/series/FEDFUNDS
+
+
